@@ -1,0 +1,44 @@
+{
+  "name": "cabinetmanager-server",
+  "version": "0.1.0",
+  "description": "CabinetManager",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server.js",
+    "start-server": "nodemon Server.js",
+    "start-dev": "concurrently \"nodemon Server.js\" \"npm run start --prefix client\"",
+    "install-all": "npm install && cd client && npm install",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "address": "^1.1.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "concurrently": "^5.3.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.0.0",
+    "mongoose": "^5.10.9",
+    "nodemailer": "^6.4.14",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "react-alert": "^7.0.2",
+    "shortid": "^2.2.15",
+    "validator": "^13.1.17"
+  },
+  "engines": {
+    "node": ">=10.x"
+  }
+}
