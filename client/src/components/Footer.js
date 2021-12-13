@@ -44,7 +44,7 @@ class Footer extends Component {
                             &copy; Copyright <strong><span>CabinetManager</span></strong>. All Rights Reserved
                         </div>
                         <div className="credits">
-                            Designed by <Link to="/">PFA Groups 23 & 24</Link>
+                            Designed by <a href="https://github.com/chachi-ayoub">CHACHI Ayoub</a>
                         </div>
                     </div>
                 </footer>
