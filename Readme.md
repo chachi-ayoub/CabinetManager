@@ -1,6 +1,6 @@
 
 
-# Les etapes pour installer et servir l'application :
+# Les etapes pour installer et servir l'application : 
 	# 1- Installer NodeJs : ./node-v14.17.3-x64.msi
 	# 2- Acceder au dossier du code source "cd CabinetManager"
 	# 3- Executer la commande: "npm install" pour installer les dependances du serveur 
